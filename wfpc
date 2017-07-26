@@ -14,7 +14,7 @@
  */
 
 // Load the backend class
-require './MageCacheWarmer.php';
+require dirname(__FILE__).'/MageCacheWarmer.php';
 
 define('MINARGC', 2);
 define('MAXARGC', 5);
