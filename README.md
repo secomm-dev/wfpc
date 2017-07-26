@@ -34,11 +34,11 @@ If you want to put a delay between requests, you can add a `-d=delay-seconds` af
 
 ##### No delay
 ```
-./wfpc -w http://mymagentosite.com/sitemap.xml
+/path/of/wfpc -w http://mymagentosite.com/sitemap.xml
 ```
 ##### With 1 second delay
 ```
-./wfpc -w -d=1 http://mymagentosite.com/sitemap.xml
+/path/of/wfpc -w -d=1 http://mymagentosite.com/sitemap.xml
 ```
 #### Test or Run on usecure urls
 ```
